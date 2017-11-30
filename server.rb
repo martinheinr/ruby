@@ -26,7 +26,7 @@ end
 Mongoid.load!('mongoid.yml', :production)
 #Class Company 
 class Company
-#  include Mongoid::Document
+  include Mongoid::Document
   
 
 #  field :id, type: String
