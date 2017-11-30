@@ -1,13 +1,13 @@
 production:  
   clients:
     default:
-      uri: "mongodb://heroku_7rz2dgdt:3kdflp75a68gq4pic3d76criqn@ds123956.mlab.com:23956/heroku_7rz2dgdt"
-#      database: heroku_7rz2dgdt
-#      username: heroku_7rz2dgdt
-#      password: 3kdflp75a68gq4pic3d76criqn
-#      hosts:
+#      uri: "mongodb://heroku_7rz2dgdt:3kdflp75a68gq4pic3d76criqn@ds123956.mlab.com:23956/heroku_7rz2dgdt"
+      database: heroku_7rz2dgdt
+      username: heroku_7rz2dgdt
+      password: 3kdflp75a68gq4pic3d76criqn
+      hosts:
 #        - ds123956.mlab.com:23956
-#        - thawing-ridge-85057.herokuapp.com:23956
+        - thawing-ridge-85057.herokuapp.com:23956
 #
 #      options:
 #        read:
