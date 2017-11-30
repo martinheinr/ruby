@@ -1,7 +1,6 @@
 #server.rb
 require 'sinatra'
 require 'mongoid'
-require 'mongo'
 require 'sinatra/namespace'
 require 'sinatra/base'
 require 'json'
@@ -24,11 +23,10 @@ before do
 end
 
 #load database config
-Mongoid.load! "mongoid.yml"
-
+Mongoid.load!('mongoid.yml', :production)
 #Class Company 
 class Company
-  include Mongoid::Document
+#  include Mongoid::Document
   
 
 #  field :id, type: String
