@@ -1,6 +1,6 @@
 development:  
   clients:
-    heroku_7rz2dgdt:3kdflp75a68gq4pic3d76criqn:
+    default:
       database: heroku_7rz2dgdt
       hosts:
         - ds123956.mlab.com
