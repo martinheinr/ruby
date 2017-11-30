@@ -1,6 +1,7 @@
 #server.rb
 require 'sinatra'
 require 'mongoid'
+require 'mongo'
 require 'sinatra/namespace'
 require 'sinatra/base'
 require 'json'

@@ -5,5 +5,9 @@ development:
       username: heroku_7rz2dgdt
       password: 3kdflp75a68gq4pic3d76criqn
       hosts:
-        - ds123956.mlab.com:23956
-#        - thawing-ridge-85057.herokuapp.com:27017
+#        - ds123956.mlab.com:23956
+        - thawing-ridge-85057.herokuapp.com:23956
+
+      options:
+        read:
+          mode: primary
