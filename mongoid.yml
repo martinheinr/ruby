@@ -3,4 +3,5 @@ development:
     default:
       database: heroku_7rz2dgdt
       hosts:
-        - thawing-ridge-85057.herokuapp.com:27017
+        - ds123956.mlab.com:23956
+#        - thawing-ridge-85057.herokuapp.com:27017
