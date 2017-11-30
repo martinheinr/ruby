@@ -23,7 +23,7 @@ before do
 end
 
 #load database config
-Mongoid.load! "mongoid.config"
+Mongoid.load! "mongoid.yml"
 
 #Class Company 
 class Company
@@ -83,9 +83,9 @@ end
 
 # Endpoints
 
-get '/' do  
-   'List of all Companies'
-end
+#get '/' do  
+#   'List of all Companies'
+#end
 
 namespace '/api/v1' do
 
