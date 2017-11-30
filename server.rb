@@ -83,9 +83,9 @@ end
 
 # Endpoints
 
-#get '/' do  
-#   'List of all Companies'
-#end
+get '/' do  
+   'Application is running...'
+end
 
 namespace '/api/v1' do
 
